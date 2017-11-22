@@ -22,3 +22,28 @@ h1 {
 .popup {
   min-height: 50px;
 }
+
+
+body{
+  margin:0px;
+    padding:0px;
+  }
+  #main{
+position:relative;
+    width:100%;
+height:100%;
+}
+div#first{
+background-image:(https://satoshigood.com/wp-content/uploads/sites/9/2017/11/satoshigood-feature-wide.jpg)
+opacity:0.2;
+  background-size: cover;
+width:100%;
+height:100%;
+}
+div#root{
+width:100%;
+height:100%;
+position:absolute;
+top: 0;
+left:0;
+}
