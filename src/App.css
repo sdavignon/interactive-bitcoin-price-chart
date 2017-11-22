@@ -25,20 +25,22 @@ h1 {
 
 
 body{
-  margin:50px;
+  margin:0px;
     padding:0px;
   }
-  #main{
-position:relative;
-    width:100%;
-height:100%;
-}
-div#first {
+ 
+#hero {
     background-image: url(https://satoshigood.com/wp-content/uploads/sites/9/2017/11/satoshigood-feature-wide.jpg);
-    opacity: 0.3;
+    height: 100vh;
     background-size: cover;
+    opacity: 0.2;
+}
+#main {
+    position: absolute;
     width: 100%;
-    height: 600px;
+    height: 100%;
+    z-index: 9999999;
+    top: 10px;
 }
 div#root{
 width:100%;
