@@ -23,11 +23,11 @@
 }
 
 .linechart_label {
- fill: #64B5F6;
+ fill: rgb(39, 89, 130);
  font-weight: 700;
 }
 
 .hoverLine {
-  stroke: #7D95B6;
+  stroke: rgb(39, 89, 130);
   stroke-width: 1;
 }
